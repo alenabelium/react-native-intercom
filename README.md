@@ -1,4 +1,7 @@
-# react-native-intercom
+# react-native-intercom - ACEX version
+
+iOS project of this library requires  `intercom.framework ` on a framework search path. This fork is configured in such a way that  `intercom.framework` is expected to be in ios folder of the project. Hence `path $(SRCROOT)/../../../ios` is added to Build Setting -> Framework Search Paths. The project is forken on npm release version 11.0.0 (on master branch).
+
 React Native wrapper for Intercom.io. Based off of [intercom-cordova](https://github.com/intercom/intercom-cordova)
 
 ## Install
